@@ -28,7 +28,7 @@ module.exports = {
     @ doesn't work here
   */
   css: [
-    '~/assets/styles/main.css'
+
   ],
 
   /*
