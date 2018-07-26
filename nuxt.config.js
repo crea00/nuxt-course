@@ -25,8 +25,10 @@ module.exports = {
 
   /*
   ** Global CSS
+    @ doesn't work here
   */
   css: [
+    '~/assets/styles/main.css'
   ],
 
   /*
@@ -49,7 +51,7 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-      
+
     }
   }
 }
