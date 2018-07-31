@@ -3,32 +3,16 @@
     <section class="intro">
       <h1>Get the latest tech news!</h1>
     </section>
-    <section class="featured-posts">
-      <PostPreview 
-        id="1"
-        thumbnail="https://blogs.ramco.com/hubfs/Tech%20In%20Logistics%202nd%20Blog.jpg?t=1532905122910"
-        title="Hello there!" 
-        previewText="This is my first post"/>
-      <PostPreview 
-        id="2"
-        thumbnail="https://blogs.ramco.com/hubfs/Tech%20In%20Logistics%202nd%20Blog.jpg?t=1532905122910"
-        title="Hello there! - the second time" 
-        previewText="This is my second post"/>
-      <PostPreview 
-        id="3"
-        thumbnail="https://blogs.ramco.com/hubfs/Tech%20In%20Logistics%202nd%20Blog.jpg?t=1532905122910"
-        title="Hi!" 
-        previewText="This is my third post"/>
-    </section>
+    <PostList />
   </div>
 </template>
 
 <script>
-import PostPreview from "@/components/Posts/PostPreview";
+import PostList from "@/components/Posts/PostList";
 
 export default {
   components: {
-    PostPreview
+    PostList
   }
 };
 </script>
